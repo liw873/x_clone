@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.tweet-box {
+    padding: 15px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet-box textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tweet-box button {
+    float: right;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tweets-container {
+    padding: 15px;
+}
+
+.tweet {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 10px 0;
+}
+
+.tweet p {
+    margin: 0;
+}
